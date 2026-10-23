@@ -1,0 +1,2824 @@
+[
+  {
+    "key": "SatoriStrike",
+    "title": "打击",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Basic",
+    "target": "AnyEnemy",
+    "route": "基础",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDefend",
+    "title": "防御",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Basic",
+    "target": "Self",
+    "route": "基础",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 5,
+        "up": 8,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriReadHeart",
+    "title": "读心",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Basic",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Suggestion",
+        "value": 3,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRecallThought",
+    "title": "想起",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Basic",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 4,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Mirror",
+        "value": 1,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriWhisperBolt",
+    "title": "想起「延展手臂」",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Suggestion",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindNeedle",
+    "title": "你在想什么？",
+    "cost": 0,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 4,
+        "up": 7,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriProbingStrike",
+    "title": "想起「户隐山之投」",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Damage",
+        "value": 4,
+        "up": 5,
+        "arg": "",
+        "when": "NonAttack",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriUnrest",
+    "title": "不安",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Load",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriEchoBullet",
+    "title": "回声弹",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "Memory",
+        "cap": 0
+      },
+      {
+        "op": "Bonus",
+        "value": 2,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriThoughtWave",
+    "title": "想起「河童之河口浪潮」",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AllEnemies",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 4,
+        "up": 6,
+        "arg": "2",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriSoftRebuke",
+    "title": "轻声斥责",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Weak",
+        "value": 1,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriGatheredThoughts",
+    "title": "聚念",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "LoadStrike",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Bonus",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriInsightCut",
+    "title": "缄默",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 7,
+        "up": 10,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Damage",
+        "value": 5,
+        "up": 7,
+        "arg": "",
+        "when": "Attack",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriWhisper",
+    "title": "耳语",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Mirror",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "DiscardToTop",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindScreen",
+    "title": "礼尚往来",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "AddDefendIntent",
+        "value": 6,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Block",
+        "value": 12,
+        "up": 16,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriQuietBreath",
+    "title": "打起精神",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "AddStrengthIntent",
+        "value": 2,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Energy",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriReadAndWrite",
+    "title": "想起「恐怖的回忆」",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 4,
+        "up": 6,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Mirror",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriReflection",
+    "title": "映照",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Draw",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Mirror",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriStaticNoise",
+    "title": "杂音",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Load",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Vulnerable",
+        "value": 1,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriForewarning",
+    "title": "预备心防",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "Self",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 7,
+        "up": 10,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Block",
+        "value": 5,
+        "up": 6,
+        "arg": "",
+        "when": "AnyAttack",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriResonate",
+    "title": "共鸣",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 7,
+        "up": 10,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Draw",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "MemoryPlayed",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriSteadyHands",
+    "title": "喝杯茶吧",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 5,
+        "up": 8,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 2,
+        "arg": "SatoriTeaMemoryPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriArrangeThoughts",
+    "title": "档案整理",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Draw",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "ExhaustExact",
+        "value": 2,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriHesitation",
+    "title": "迟疑",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 7,
+        "up": 10,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Suggestion",
+        "value": 4,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriNoiseBarrier",
+    "title": "猫猫结界",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Load",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMemoryPolish",
+    "title": "心象加工",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Draw",
+        "value": 2,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriEchoPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindExtortion",
+    "title": "思维勒索",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "SuggestionStrike",
+        "value": 3,
+        "up": 4,
+        "arg": "4",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriAfterimage",
+    "title": "残像",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "PreviousMemory",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriAgitation",
+    "title": "想起「水银之毒」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "PoisonFromLoad",
+        "value": 0,
+        "up": 0,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "key": "SatoriNoiseBurst",
+    "title": "嘈杂",
+    "cost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AllEnemies",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 12,
+        "up": 15,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "WeakAll",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMemoryRain",
+    "title": "想起「波与粒的境界」",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "MemoryVolley",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriThoughtLeech",
+    "title": "念头汲取",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "ExhaustMemoryStrike",
+        "value": 8,
+        "up": 8,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Bonus",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriHeartRend",
+    "title": "心裂",
+    "cost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "IntentStrike",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriCounterEcho",
+    "title": "想起「朦朦迷雾」",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "TempStrengthLoss",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRedThreadSweep",
+    "title": "想起「鸟居旋风」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AllEnemies",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "MirrorAll",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "SuggestionAll",
+        "value": 3,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriIntrusiveThought",
+    "title": "侵入思维",
+    "cost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 10,
+        "up": 14,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Load",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "NonAttack",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRetainedImage",
+    "title": "滞留心象",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "TempFocus",
+        "value": 3,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Retain"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriIncite",
+    "title": "挑拨",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Discord",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriCommandStop",
+    "title": "止语",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "SuggestionGuard",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriQuietCourt",
+    "title": "离间操纵",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 9,
+        "up": 13,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "DiscordAbsentAll",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRewriteHostility",
+    "title": "挑衅",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "Provoke",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriBorrowedCourage",
+    "title": "心灵屏蔽",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriMentalShieldPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "key": "SatoriMindEchoes",
+    "title": "心声回廊",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Mirror",
+        "value": 2,
+        "up": 2,
+        "arg": "Free",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRecollection",
+    "title": "想起「粼粼水底之心伤」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 4,
+        "up": 7,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "RecallMemory",
+        "value": 1,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMemorySketch",
+    "title": "想起「飞行虫之巢」",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "GenerateUpgraded",
+        "value": 1,
+        "up": 2,
+        "arg": "Defense",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriEditMemory",
+    "title": "书写记忆",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "RandomUpgradedMemory",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriThoughtTwin",
+    "title": "想起「二重黑死蝶」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "CopyHandMemories",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "key": "SatoriMentalOverload",
+    "title": "想起「回归虚无」",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Load",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriHeadache",
+    "title": "换个念头",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "RewriteVulnerable",
+        "value": 2,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriOminousSilence",
+    "title": "压抑的静默",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "LoadAttackAll",
+        "value": 5,
+        "up": 7,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriLongNight",
+    "title": "想起「水精公主」",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 17,
+        "up": 23,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindSeal",
+    "title": "想起「风神木叶隐身术」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "BlurPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriInnerOrder",
+    "title": "断念",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "ExhaustThenDraw",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "key": "SatoriSuddenFocus",
+    "title": "熬夜",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 5,
+        "up": 5,
+        "arg": "DoomPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Energy",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Draw",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriExhale",
+    "title": "阿空的燃料清单",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "ExhaustStatusForEnergy",
+        "value": 1,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriGuardMemory",
+    "title": "守念",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Generate",
+        "value": 1,
+        "up": 1,
+        "arg": "Defense",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriBindingRecall",
+    "title": "束念",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "SkillsToLoad",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriLingeringEcho",
+    "title": "观察弱点",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "AnyEnemy",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "Strength",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "Attack",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriWhisperDominion",
+    "title": "低语支配",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 3,
+        "arg": "SatoriWhisperPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMemoryHall",
+    "title": "记忆回廊",
+    "cost": 2,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriMirrorHallPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriEchoAmplifier",
+    "title": "心念凝聚",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 3,
+        "arg": "SatoriEchoPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriThoughtShield",
+    "title": "陪伴",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 3,
+        "arg": "SatoriResonancePower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriUnceasingNoise",
+    "title": "不断的杂音",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 2,
+        "arg": "SatoriStaticPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriVerbalEcho",
+    "title": "言语回声",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "target": "Self",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 4,
+        "up": 6,
+        "arg": "SatoriFeedbackPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindCollapse",
+    "title": "想起「恐怖催眠术」",
+    "cost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 16,
+        "up": 21,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "SettleLoad",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriHeartStorm",
+    "title": "想起「天狗巨暴流」",
+    "cost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "target": "AllEnemies",
+    "route": "混合",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 8,
+        "up": 11,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "SuggestionToLoadAll",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriPerfectEcho",
+    "title": "想起「春之京都人偶」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "AllEnemies",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "DiscordAll",
+        "value": 2,
+        "up": 3,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriPuppetStrike",
+    "title": "傀儡一击",
+    "cost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 10,
+        "up": 10,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Discord",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriSubliminalFang",
+    "title": "⑤",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "AllEnemies",
+    "route": "混合",
+    "effects": [
+      {
+        "op": "FifthTurn",
+        "value": 5,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "WeakAll",
+        "value": 5,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "VulnerableAll",
+        "value": 5,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "LoadAll",
+        "value": 5,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "SuggestionAll",
+        "value": 5,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRecallBarrage",
+    "title": "想起「百万鬼夜行」",
+    "cost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "target": "AllEnemies",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "MemoryBarrage",
+        "value": 3,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindLiberation",
+    "title": "脑力透支",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "LoseMaxHp",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Draw",
+        "value": 3,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Energy",
+        "value": 2,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriTotalSilence",
+    "title": "万籁俱寂",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "意图",
+    "effects": [
+      {
+        "op": "StopAttacks",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDeepImprint",
+    "title": "脑符「脑指纹测谎法」",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "AnyEnemy",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "DoubleLoad",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriFourfoldMemory",
+    "title": "想起「贤者之石」",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Generate",
+        "value": 1,
+        "up": 1,
+        "arg": "EachFree",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriEmptyMind",
+    "title": "闲暇时刻",
+    "cost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "AllEnemies",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "BlockBoth",
+        "value": 20,
+        "up": 20,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 2,
+        "arg": "EnergyNextTurnPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 3,
+        "arg": "DrawCardsNextTurnPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriFinalOrder",
+    "title": "最后的命令",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "AnyEnemy",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "SuggestionStop",
+        "value": 8,
+        "up": 6,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDreamReprise",
+    "title": "想起「旧地狱的梦」",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 5,
+        "up": 8,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "RecallMemory",
+        "value": 3,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDreamStudy",
+    "title": "地灵殿图书室",
+    "cost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriDreamStudyPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriRedStrings",
+    "title": "第三只眼的红线",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 6,
+        "up": 9,
+        "arg": "SatoriRedStringsPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriPuppetTheater",
+    "title": "想起「稻草人偶神风」",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 3,
+        "arg": "SatoriPuppetTheaterPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDreadAura",
+    "title": "怨灵畏惧的少女",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 3,
+        "up": 4,
+        "arg": "SatoriDreadAuraPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriNightmareField",
+    "title": "少女的噩梦",
+    "cost": 0,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriNightmarePower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [
+      "Innate"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDeepSea",
+    "title": "深海意识",
+    "cost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "负荷",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 2,
+        "up": 2,
+        "arg": "SatoriDeepSeaPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriSharedNightmare",
+    "title": "旧地狱的来信",
+    "cost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriRupturePower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Innate"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriClearSight",
+    "title": "少女觉",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriFocusPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [
+      "Innate"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindWard",
+    "title": "心灵结界",
+    "cost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "DoubleSuggestionAll",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "key": "SatoriPerfectMemory",
+    "title": "全知形态",
+    "cost": 3,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "复写",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 2,
+        "arg": "SatoriEchoPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 2,
+        "arg": "SatoriPerfectMemoryPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Ethereal"
+    ],
+    "upgrade_cost": 3,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriCalmHeart",
+    "title": "今日闭门谢客",
+    "cost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "操纵",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriCalmPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMemoryPalace",
+    "title": "心无旁骛",
+    "cost": 3,
+    "type": "Skill",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "通用",
+    "effects": [
+      {
+        "op": "KeepPile",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 3,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriMindSovereign",
+    "title": "心花「羞于留影的蔷薇」",
+    "cost": 3,
+    "type": "Power",
+    "rarity": "Rare",
+    "target": "Self",
+    "route": "混合",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriMindSovereignPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 2,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriAncientHeart",
+    "title": "入侵",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Ancient",
+    "target": "AllEnemies",
+    "route": "混合",
+    "effects": [
+      {
+        "op": "SuggestionAll",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "LoadAll",
+        "value": 6,
+        "up": 9,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriAncientDream",
+    "title": "王之蔑视",
+    "cost": 1,
+    "type": "Power",
+    "rarity": "Ancient",
+    "target": "Self",
+    "route": "混合",
+    "effects": [
+      {
+        "op": "Power",
+        "value": 1,
+        "up": 1,
+        "arg": "SatoriKingDisdainPower",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [],
+    "upgrade_cost": 1,
+    "upgrade_keywords": [
+      "Innate"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriAttackMemory",
+    "title": "攻念",
+    "cost": 0,
+    "type": "Attack",
+    "rarity": "Token",
+    "target": "AnyEnemy",
+    "route": "记忆",
+    "effects": [
+      {
+        "op": "Damage",
+        "value": 5,
+        "up": 5,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDefenseMemory",
+    "title": "守护心象",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Token",
+    "target": "Self",
+    "route": "记忆",
+    "effects": [
+      {
+        "op": "Block",
+        "value": 4,
+        "up": 4,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriDebuffMemory",
+    "title": "咒念",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Token",
+    "target": "AnyEnemy",
+    "route": "记忆",
+    "effects": [
+      {
+        "op": "Weak",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      },
+      {
+        "op": "Vulnerable",
+        "value": 1,
+        "up": 1,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  },
+  {
+    "key": "SatoriBuffMemory",
+    "title": "蓄念",
+    "cost": 0,
+    "type": "Skill",
+    "rarity": "Token",
+    "target": "Self",
+    "route": "记忆",
+    "effects": [
+      {
+        "op": "TempStrength",
+        "value": 2,
+        "up": 2,
+        "arg": "",
+        "when": "",
+        "scale": "",
+        "cap": 0
+      }
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "upgrade_cost": 0,
+    "upgrade_keywords": [
+      "Retain"
+    ],
+    "remove_keywords": []
+  }
+]

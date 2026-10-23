@@ -1,0 +1,17 @@
+{
+  "SATORI.title": "古明地さとり",
+  "SATORI.titleObject": "さとり",
+  "SATORI.description": "地霊殿の主であり、心を読む妖怪。\n囁きで敵意を揺さぶり、心象を弾幕へ変え、雑念で相手を押し潰す。\n操り、記憶、そして精神負荷を軸に戦う。",
+  "SATORI.pronounObject": "彼女",
+  "SATORI.possessiveAdjective": "彼女の",
+  "SATORI.pronounPossessive": "彼女のもの",
+  "SATORI.pronounSubject": "彼女",
+  "SATORI.cardsModifierTitle": "さとりのカード",
+  "SATORI.cardsModifierDescription": "専用カード92枚。暗示、記憶、精神負荷による心の弾幕。",
+  "SATORI.eventDeathPrevention": "あの一瞬の心の声、聞こえていたわ。",
+  "SATORI.unlockText": "最初から使用可能。",
+  "SATORI_STRIKE.title": "ストライク",
+  "SATORI_STRIKE.description": "{Damage:diff()}ダメージを与える。",
+  "SATORI_DEFEND.title": "防御",
+  "SATORI_DEFEND.description": "{Block:diff()}ブロックを得る。"
+}

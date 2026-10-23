@@ -1,0 +1,17 @@
+{
+  "id": "SatoriCharacter",
+  "name": "古明地觉",
+  "author": "llxs",
+  "description": "东方Project同人角色：古明地觉。包含92张专属牌、4种衍生记忆牌、10件遗物、23条符卡语音及9句战斗日语对白。",
+  "version": "0.4.34",
+  "min_game_version": "0.107.1",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "3.4.7"
+    }
+  ],
+  "affects_gameplay": true
+}

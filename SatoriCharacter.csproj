@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Sts2Dir Condition="'$(Sts2Dir)' == ''">$(STS2_DIR)</Sts2Dir>
+    <Sts2DataDir Condition="'$(Sts2DataDir)' == ''">$(Sts2Dir)/data_sts2_windows_x86_64</Sts2DataDir>
+    <BaseLibDir Condition="'$(BaseLibDir)' == ''">$(BASELIB_DIR)</BaseLibDir>
+    <BaseLibDir Condition="'$(BaseLibDir)' == ''">$(Sts2Dir)/mods/BaseLib</BaseLibDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BaseLib"><HintPath>$(BaseLibDir)/BaseLib.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="sts2"><HintPath>$(Sts2DataDir)/sts2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(Sts2DataDir)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="GodotSharp"><HintPath>$(Sts2DataDir)/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

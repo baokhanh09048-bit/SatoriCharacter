@@ -1,0 +1,128 @@
+{
+  "memory.flavor": [
+    "门外的脚步记不清了，门里的笑声还在。",
+    "The footsteps outside have faded from memory. The laughter inside has not.",
+    "扉の外の足音はもう曖昧。それでも、扉の内側の笑い声は覚えている。",
+    "문밖의 발소리는 기억이 흐릿해졌다. 문 안의 웃음소리는 아직 남아 있다."
+  ],
+  "rest.memoryStory": [
+    "一扇门，四把椅子。你已经忘了是谁最后关上门，却记得恋摘下帽子，阿燐点亮走廊的灯，阿空把火添旺。\n这回忆没有告诉你归路，只让你想起该和谁一起走。",
+    "One door, four chairs. You have forgotten who closed the door last, but remember Koishi taking off her hat, Orin lighting the hall, and Okuu tending the fire.\nThe memory does not show you the way home. It reminds you who should walk with you.",
+    "一枚の扉、四脚の椅子。最後に扉を閉めたのが誰だったかは忘れてしまった。それでも、こいしが帽子を脱ぎ、お燐が廊下の灯りをともして、お空が火をくべたことは覚えている。\nこの思い出は帰り道を教えてはくれない。ただ、誰と一緒に帰るべきかを思い出させてくれる。",
+    "문 하나, 의자 네 개. 마지막으로 문을 닫은 사람이 누구인지는 잊었지만, 코이시가 모자를 벗고 오린이 복도에 불을 밝히고 오쿠가 불을 지핀 것은 기억한다.\n이 추억은 집으로 가는 길을 알려 주지 않는다. 누구와 함께 걸어야 하는지를 떠올리게 할 뿐이다."
+  ],
+  "visitors.title": [
+    "庭院门前",
+    "At the Garden Gate",
+    "庭の門前",
+    "정원 문 앞에서"
+  ],
+  "visitors.initial": [
+    "庭院里亮着灯。恋的影子在门后晃了一下，又不见了。\n阿燐：「觉大人，我们也来接她。」\n阿空：「她说还想再玩一会儿。」\n阿燐：「来时的岔路太多，最好留一人接应。」\n觉：「我去找恋。你们谁和我进去？」\n你把手放上门把，望向两人。",
+    "A light glows in the garden. Koishi's shadow flits behind the gate, then disappears.\nOrin: “Lady Satori, we came to bring her home too.”\nOkuu: “She says she wants to play a little longer.”\nOrin: “There were so many forks on the way here. Someone should stay behind to guide us back.”\nSatori: “I'll go find Koishi. Who will come with me?”\nYou rest your hand on the gate and look at the two of them.",
+    "庭に灯りがともっている。こいしの影が門の向こうで揺れ、また見えなくなった。\nお燐：「さとり様、あたいたちも迎えに来ました。」\nお空：「もう少し遊びたいんだって。」\nお燐：「来る途中、分かれ道が多かったですから、一人は帰りの案内に残ったほうがよさそうですね。」\nさとり：「私はこいしを探しに行くわ。誰が一緒に来てくれる？」\n門の取っ手に手をかけ、二人を見た。",
+    "정원에 불이 켜져 있다. 문 뒤에서 코이시의 그림자가 잠깐 흔들리더니 다시 사라졌다.\n오린: “사토리 님, 저희도 그 애를 데리러 왔어요.”\n오쿠: “조금만 더 놀고 싶대요.”\n오린: “오는 길에 갈림길이 많았으니, 한 명은 남아서 돌아올 길을 안내하는 게 좋겠어요.”\n사토리: “내가 코이시를 찾으러 갈게. 누가 같이 들어갈래?”\n문손잡이에 손을 얹고 두 사람을 바라본다."
+  ],
+  "visitors.option.OKUU": [
+    "阿空，陪我进去",
+    "Okuu, come in with me",
+    "お空、一緒に来て",
+    "오쿠, 같이 들어가자"
+  ],
+  "visitors.option.ORIN": [
+    "阿燐，和我一起",
+    "Orin, come with me",
+    "お燐、一緒に",
+    "오린, 함께 가자"
+  ],
+  "visitors.option.BOTH": [
+    "这次，一个也不落下",
+    "This time, no one stays behind",
+    "今度は、誰も残さずに",
+    "이번에는 아무도 빠짐없이"
+  ],
+  "visitors.option.ALONE": [
+    "我想单独陪陪她",
+    "I'd like a moment alone with her",
+    "二人きりで、少し話したいの",
+    "그 애와 둘이 있고 싶어"
+  ],
+  "visitors.page.OKUU": [
+    "觉：「阿空跟我来。阿燐，拜托你守住归路。」\n阿燐：「好。我守着岔路口，等你们回来。」\n阿空：「恋大人就交给我们吧！」",
+    "Satori: “Okuu, come with me. Orin, please watch the way back.”\nOrin: “Of course. I'll wait at the crossroads for you.”\nOkuu: “Leave Lady Koishi to us!”",
+    "さとり：「お空、一緒に来て。お燐、帰り道をお願いね。」\nお燐：「はい。分かれ道で、お帰りを待っています。」\nお空：「こいし様は、私たちに任せて！」",
+    "사토리: “오쿠, 나와 가자. 오린, 돌아갈 길을 지켜 줘.”\n오린: “네. 갈림길을 지키며 기다릴게요.”\n오쿠: “코이시 님은 저희에게 맡겨 주세요!”"
+  ],
+  "visitors.page.ORIN": [
+    "觉：「阿燐和我进去。阿空，照着这条路，等我们回来。」\n阿空：「嗯！你们一出门就能看见！」\n阿燐：「走吧。别让她又藏到别处去了。」",
+    "Satori: “Orin, come inside with me. Okuu, keep this path lit until we return.”\nOkuu: “Yes! You'll see the light as soon as you step out!”\nOrin: “Let's go, before she finds somewhere else to hide.”",
+    "さとり：「お燐、一緒に入りましょう。お空はこの道を照らして、待っていてね。」\nお空：「うん！ 門を出たらすぐ見えるようにしておく！」\nお燐：「行きましょう。また別の場所に隠れてしまう前に。」",
+    "사토리: “오린, 나와 들어가자. 오쿠는 이 길을 밝혀 주며 기다려 줘.”\n오쿠: “네! 문을 나오면 바로 보이게 할게요!”\n오린: “가요. 또 다른 곳에 숨어 버리기 전에.”"
+  ],
+  "visitors.page.BOTH": [
+    "回忆里，那扇门一直亮着灯。你定了定神，认准归路的方向。\n觉：「这次认得路了。你们都和我来吧。」\n阿燐：「那我把怨灵留在岔口，我们一起进去。」\n阿空：「好！一个也不落下！」",
+    "In the memory, the light by that door never goes out. You steady yourself and find your bearings for the journey home.\nSatori: “I know the way back now. Both of you, come with me.”\nOrin: “Then I'll leave the spirits at the crossroads, and we can all go in.”\nOkuu: “Yes! No one stays behind!”",
+    "思い出の中では、あの扉の灯りがずっとともっている。心を落ち着け、帰るべき方角を確かめた。\nさとり：「今度は帰り道がわかるわ。二人とも、一緒に来て。」\nお燐：「それなら怨霊を分かれ道に残して、みんなで入りましょう。」\nお空：「うん！ 誰も置いていかないよ！」",
+    "추억 속 그 문에는 늘 불이 켜져 있다. 마음을 가다듬고 돌아갈 방향을 확인한다.\n사토리: “이제 돌아갈 길을 알겠어. 둘 다 나와 가자.”\n오린: “그럼 원령을 갈림길에 남겨 두고, 다 같이 들어가요.”\n오쿠: “좋아! 아무도 빠짐없이!”"
+  ],
+  "visitors.page.ALONE": [
+    "觉：「我一个人进去，和她说几句话。你们替我留着归路。」\n阿燐：「好。我守岔口。」\n阿空：「那我把门外照亮！觉大人，带她回来哦。」",
+    "Satori: “I'll go in alone and talk with her. Please keep the way back open.”\nOrin: “All right. I'll watch the crossroads.”\nOkuu: “Then I'll light the gate! Lady Satori, bring her back with you.”",
+    "さとり：「一人で入って、あの子と少し話すわ。二人は帰り道を守っていて。」\nお燐：「はい。あたいは分かれ道を見ています。」\nお空：「じゃあ、私は門の外を照らすね！ さとり様、連れて帰ってきてね。」",
+    "사토리: “혼자 들어가서 그 애와 이야기할게. 둘은 돌아갈 길을 지켜 줘.”\n오린: “네. 저는 갈림길을 지킬게요.”\n오쿠: “그럼 나는 문밖을 밝힐게요! 사토리 님, 꼭 데려오세요.”"
+  ],
+  "boss.bubble.intro.koishi": [
+    "姐姐，你也要留下来玩吗？",
+    "Sister, are you staying to play too?",
+    "お姉ちゃんも、ここで遊んでいくの？",
+    "언니도 여기서 놀다 갈 거야?"
+  ],
+  "boss.bubble.intro.satori": [
+    "这座尖塔很危险，不是玩闹的地方。我们一起回去吧。",
+    "This Spire is dangerous, Koishi. It isn't a place to play. Let's go home together.",
+    "この塔は危険よ。遊んでいていい場所じゃないわ。一緒に帰りましょう。",
+    "이 첨탑은 위험해. 장난치며 놀 곳이 아니야. 함께 돌아가자."
+  ],
+  "boss.bubble.intro.1": [
+    "回去的路，我会照亮的！",
+    "I'll light the way home!",
+    "帰り道は、私が照らすよ！",
+    "돌아갈 길은 내가 밝힐게!"
+  ],
+  "boss.bubble.intro.2": [
+    "恋大人，我们来接您回去。别再躲啦。",
+    "Lady Koishi, we're here to bring you home. No more hiding.",
+    "こいし様、迎えに来ました。もう隠れないでくださいね。",
+    "코이시 님, 데리러 왔어요. 이제 그만 숨으세요."
+  ],
+  "boss.bubble.intro.3": [
+    "大家都来了呀……那就一起玩吧。",
+    "Everyone's here... Then let's all play together.",
+    "みんな来たんだ……じゃあ、一緒に遊ぼうよ。",
+    "다들 왔구나…… 그럼 같이 놀자."
+  ],
+  "boss.bubble.intro.4": [
+    "只有姐姐一个人来接我呀？那这一局，就只和姐姐玩。",
+    "You came to fetch me all on your own, sister? Then this game is just for us.",
+    "お姉ちゃん一人で迎えに来たの？ じゃあ、今度はお姉ちゃんとだけ遊ぶね。",
+    "언니 혼자 나를 데리러 온 거야? 그럼 이번 놀이는 언니랑만 할래."
+  ],
+  "boss.heavyWarning.0": [
+    "姐姐，小心。下一下会很重。",
+    "Careful, sister. The next hit will be heavy.",
+    "お姉ちゃん、気をつけて。次は強くいくよ。",
+    "언니, 조심해. 다음 공격은 세게 갈 거야."
+  ],
+  "boss.heavyWarning.1": [
+    "我要认真了，别受伤哦。",
+    "I'm getting serious now. Don't get hurt.",
+    "本気でいくよ。怪我しないでね。",
+    "이제 진심으로 갈게. 다치지 마."
+  ],
+  "boss.heavyWarning.2": [
+    "站稳一点，我要过来了。",
+    "Steady yourself. Here I come.",
+    "しっかり立っててね。いくよ。",
+    "잘 버티고 서 있어. 간다."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "SATORI_HEART_KNOT.title": "心结",
+  "SATORI_HEART_KNOT.description": "全队共享的无实体破除进度增加1。\n目标为每位参战玩家4次。完成后永久破除，并消耗所有《心结》。",
+  "SATORI_NUCLEAR_AID.title": "核热支援",
+  "SATORI_NUCLEAR_AID.description": "获得{Energy:energyIcons()}。",
+  "SATORI_SPIRIT_ESCORT.title": "怨灵护送",
+  "SATORI_SPIRIT_ESCORT.description": "获得{Block:diff()}点格挡。\n抽{Cards:diff()}张牌。"
+}

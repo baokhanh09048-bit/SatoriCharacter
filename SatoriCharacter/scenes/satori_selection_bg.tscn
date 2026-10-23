@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Texture2D" path="res://SatoriCharacter/assets/batch02/selection-keyart.png" id="1"]
+[ext_resource type="Script" path="res://SatoriCharacter/scenes/selection_canvas.gd" id="2"]
+[ext_resource type="VideoStream" path="res://SatoriCharacter/assets/selection-video/rose-garden.ogv" id="3"]
+
+[sub_resource type="Shader" id="Shader_readability"]
+code = "shader_type canvas_item;
+void fragment() {
+    COLOR = vec4(0.045, 0.035, 0.065, 0.60 * (1.0 - smoothstep(0.12, 0.60, UV.x)));
+}"
+
+[sub_resource type="ShaderMaterial" id="Material_readability"]
+shader = SubResource("Shader_readability")
+
+[node name="SatoriBg" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("2")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+mouse_filter = 2
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+mouse_filter = 2
+stream = ExtResource("3")
+buffering_msec = 100
+volume = 0.0
+autoplay = true
+expand = true
+loop = true
+
+[node name="Readability" type="ColorRect" parent="."]
+material = SubResource("Material_readability")
+layout_mode = 0
+mouse_filter = 2

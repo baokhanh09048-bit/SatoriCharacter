@@ -1,0 +1,17 @@
+{
+  "SATORI.title": "Satori Komeiji",
+  "SATORI.titleObject": "Satori",
+  "SATORI.description": "The mistress of the Palace of the Earth Spirits can read minds.\nShe turns whispers into hostility and thoughts into barrages, overwhelming foes with the noise in their own minds.\nManipulation, recollection, and Mental Load define her unique card pool.",
+  "SATORI.pronounObject": "her",
+  "SATORI.possessiveAdjective": "her",
+  "SATORI.pronounPossessive": "hers",
+  "SATORI.pronounSubject": "she",
+  "SATORI.cardsModifierTitle": "Satori Cards",
+  "SATORI.cardsModifierDescription": "92 unique cards. A barrage of Suggestion, memory, and Mental Load.",
+  "SATORI.eventDeathPrevention": "I heard the thought you had in that instant.",
+  "SATORI.unlockText": "Unlocked by default.",
+  "SATORI_STRIKE.title": "Strike",
+  "SATORI_STRIKE.description": "Deal {Damage:diff()} damage.",
+  "SATORI_DEFEND.title": "Defend",
+  "SATORI_DEFEND.description": "Gain {Block:diff()} Block."
+}

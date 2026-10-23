@@ -1,0 +1,20 @@
+{
+  "SATORICHARACTER.mod_title": "古明地覺 · 獨立角色",
+  "SATORICHARACTER-SPELL_VOICE_SETTINGS.title": "符卡語音",
+  "SATORICHARACTER-ENABLE_SPELL_VOICES.title": "開啟符卡語音",
+  "SATORICHARACTER-ENABLE_SPELL_VOICES.hover.desc": "打出符卡時播放 A3 日語語音。關閉會立即停止目前語音，不影響符卡飄字。",
+  "SATORICHARACTER-SPELL_VOICE_VOLUME.title": "符卡語音音量",
+  "SATORICHARACTER-SPELL_VOICE_VOLUME.hover.desc": "100% 為舊版音量，預設 200% 為舊版的兩倍。仍跟隨遊戲的音效和總音量；0% 為靜音。",
+  "SATORICHARACTER-SPELL_VOICE_VOLUME.sliderFormat": "{0:0}%",
+  "SATORICHARACTER-SPELL_BANNER_SETTINGS.title": "符卡飄字",
+  "SATORICHARACTER-ENABLE_SPELL_BANNER.title": "顯示符卡名飄字",
+  "SATORICHARACTER-ENABLE_SPELL_BANNER.hover.desc": "打出符卡時，玫紫色名稱橫幅從畫面中央淡入、輕移後消失。連打會替換上一條，不阻擋操作。",
+  "SATORICHARACTER-USE_JAPANESE_SPELL_NAMES.title": "飄字使用日語原名",
+  "SATORICHARACTER-USE_JAPANESE_SPELL_NAMES.hover.desc": "預設顯示卡牌上的中文符卡名。開啟後顯示日語名稱；語音始終使用日語。",
+  "SATORICHARACTER-SPELL_BANNER_DURATION.title": "飄字顯示時長",
+  "SATORICHARACTER-SPELL_BANNER_DURATION.hover.desc": "包含淡入和淡出的總時長，只影響飄字，不改變出牌速度或語音長度。",
+  "SATORICHARACTER-SPELL_BANNER_DURATION.sliderFormat": "{0:0.0} 秒",
+  "SATORICHARACTER-SPELL_BANNER_SCALE.title": "飄字字號",
+  "SATORICHARACTER-SPELL_BANNER_SCALE.hover.desc": "調整符卡名字號。長名稱會自動縮小，以適應螢幕寬度。",
+  "SATORICHARACTER-SPELL_BANNER_SCALE.sliderFormat": "{0:0.0} 倍"
+}

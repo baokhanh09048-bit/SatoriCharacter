@@ -1,0 +1,17 @@
+{
+  "SATORI.title": "코메이지 사토리",
+  "SATORI.titleObject": "사토리",
+  "SATORI.description": "지령전의 주인이자 마음을 읽는 요괴.\n속삭임으로 적의를 흔들고, 심상을 탄막으로 바꾸어 잡념으로 상대를 짓누른다.\n조종과 기억, 정신 과부하를 중심으로 싸운다.",
+  "SATORI.pronounObject": "그녀",
+  "SATORI.possessiveAdjective": "그녀의",
+  "SATORI.pronounPossessive": "그녀의 것",
+  "SATORI.pronounSubject": "그녀",
+  "SATORI.cardsModifierTitle": "사토리 카드",
+  "SATORI.cardsModifierDescription": "전용 카드 92장. 암시와 기억, 정신 과부하로 이루어진 마음의 탄막.",
+  "SATORI.eventDeathPrevention": "그 순간 네 마음의 소리를 들었어.",
+  "SATORI.unlockText": "기본 해금.",
+  "SATORI_STRIKE.title": "타격",
+  "SATORI_STRIKE.description": "피해를 {Damage:diff()} 준다.",
+  "SATORI_DEFEND.title": "수비",
+  "SATORI_DEFEND.description": "방어도를 {Block:diff()} 얻는다."
+}

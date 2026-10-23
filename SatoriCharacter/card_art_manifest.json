@@ -1,0 +1,962 @@
+[
+  {
+    "key": "SatoriStrike",
+    "title": "打击",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriStrike.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "69bcf79d461a466a52844a752da1d215cdaea77d85ab72cca7ebadedfecb8d68"
+  },
+  {
+    "key": "SatoriDefend",
+    "title": "防御",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDefend.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "ad5af6915c06271709e3f65516b014b89c33451797526c80fe17e7e1c597f5c1"
+  },
+  {
+    "key": "SatoriReadHeart",
+    "title": "读心",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriReadHeart.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "1ef240791e2a7dfc62d77a6e74c991d3b8feeefe071e29ac8a530e124828f4c6"
+  },
+  {
+    "key": "SatoriRecallThought",
+    "title": "想起",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRecallThought.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "f11fd51cec170543373b7b00a432619aa0d76c5e6783fe5ac10701e7735926df"
+  },
+  {
+    "key": "SatoriWhisperBolt",
+    "title": "想起「延展手臂」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriWhisperBolt.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "a65305e76ed1523e2ab752c331b2a4bed41d7576003ca51616c97bc746c540bd"
+  },
+  {
+    "key": "SatoriMindNeedle",
+    "title": "你在想什么？",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindNeedle.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "b52880fec0c66ca8f95f938d0a9a42ac76f1ed02c9679c70f23676547784a48f"
+  },
+  {
+    "key": "SatoriProbingStrike",
+    "title": "想起「户隐山之投」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriProbingStrike.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "4cdde5ad6f3cf6df4ff3b2de6eff3fb54efe3a58213b223712853240dcd430e2"
+  },
+  {
+    "key": "SatoriUnrest",
+    "title": "不安",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriUnrest.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "0bb64c1487e9ac3dc960f347b15ea962a422a85dc128c714c8d0a92055ae0e7b"
+  },
+  {
+    "key": "SatoriEchoBullet",
+    "title": "回声弹",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriEchoBullet.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "6dd978a6e147c19c735485ec2fc9f23b3d856eda916eb09ece929f6ec434a04a"
+  },
+  {
+    "key": "SatoriThoughtWave",
+    "title": "想起「河童之河口浪潮」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriThoughtWave.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "b8964eb8328c149936f17432e2b54b2bab2157e241a829bf6224bf85817903e2"
+  },
+  {
+    "key": "SatoriSoftRebuke",
+    "title": "轻声斥责",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriSoftRebuke.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "4c3dd9789534311777b7b4abbffe963e61feb53abd1e389bb18ab54294ad90e7"
+  },
+  {
+    "key": "SatoriGatheredThoughts",
+    "title": "聚念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriGatheredThoughts.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "020747d8e8bccc8babe481fc84e0fbf1469a6012f0363304a7a67e73bbc18288"
+  },
+  {
+    "key": "SatoriInsightCut",
+    "title": "缄默",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriInsightCut.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "005bc0ab00e301823143453ba5a49eb5a56f9fcc78889d2c655fd14187e5789c"
+  },
+  {
+    "key": "SatoriWhisper",
+    "title": "耳语",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriWhisper.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "e1e16b070649b7b51bfa4cb9973a59189adb9613dc548ce0c82a6702efbc4a6d"
+  },
+  {
+    "key": "SatoriMindScreen",
+    "title": "礼尚往来",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindScreen.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "44f610899615e4c976b0019b9d601ed5188d5e94833b1edead7cbf261ffd36d9"
+  },
+  {
+    "key": "SatoriQuietBreath",
+    "title": "打起精神",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriQuietBreath.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "7524f6fae33e7215e6d92f2e57c4572cd3fb47053ef85d4c3d9ab979eb65c5d9"
+  },
+  {
+    "key": "SatoriReadAndWrite",
+    "title": "想起「恐怖的回忆」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriReadAndWrite.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "2f7f3d1239dc04d2b2d69ff358ebfae6bed84339629827786ce029cbebc278e9"
+  },
+  {
+    "key": "SatoriReflection",
+    "title": "映照",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriReflection.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "ce7db1f282bfbb48469622096e533a8e3770ef97411ddf26ba43d7b5da066818"
+  },
+  {
+    "key": "SatoriStaticNoise",
+    "title": "杂音",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriStaticNoise.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "66432d69fda887c12008325a51cb473d033c98f48dc14e5a817ba8d2012591b7"
+  },
+  {
+    "key": "SatoriForewarning",
+    "title": "预备心防",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriForewarning.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "4bf41eb956f5217f951631f16bb1480b7c84b2fda111fdc14193788fa28efb09"
+  },
+  {
+    "key": "SatoriResonate",
+    "title": "共鸣",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriResonate.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "c98deded30299d5780f4fa24f645c88109e0f8294d370ff79519b34b6f5b8857"
+  },
+  {
+    "key": "SatoriSteadyHands",
+    "title": "喝杯茶吧",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriSteadyHands.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "94a7800b6a82556bf9086c21773d988fcb2aa40ee152812a6e40eeead286c6a8"
+  },
+  {
+    "key": "SatoriArrangeThoughts",
+    "title": "档案整理",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriArrangeThoughts.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "f8cf429fd85718c518de2b66e7051c2010f27793931e6e82924e867199e23fd8"
+  },
+  {
+    "key": "SatoriHesitation",
+    "title": "迟疑",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriHesitation.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "c11c5b809c04659002a2689af26b9cd9f4b485317bded1ab0932fb6a467e9733"
+  },
+  {
+    "key": "SatoriNoiseBarrier",
+    "title": "猫猫结界",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriNoiseBarrier.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "7381caef3a117f0158a2ea155fbe296ca2994bc0718a6e410d8d6b246177412b"
+  },
+  {
+    "key": "SatoriMemoryPolish",
+    "title": "心象加工",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMemoryPolish.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "a8ce8accec998a1a9ed3cc2866dc668140fe857fd5ababae1a796b122783d0e5"
+  },
+  {
+    "key": "SatoriMindExtortion",
+    "title": "思维勒索",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindExtortion.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "57859d19a72d6041ed01dcc7481ab3b87fa4832de5bd3f73c2446160f44995f7"
+  },
+  {
+    "key": "SatoriAfterimage",
+    "title": "残像",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriAfterimage.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "ab1ed7a5c17f5f527251a022632b4fa0b33010d97a7e319e2ddb068db9c37a0a"
+  },
+  {
+    "key": "SatoriAgitation",
+    "title": "想起「水银之毒」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriAgitation.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "470058135e464446ed4d0c6f9477e3945036e6a4f8160fec4e8b8a8622adc570"
+  },
+  {
+    "key": "SatoriNoiseBurst",
+    "title": "嘈杂",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriNoiseBurst.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "a134c326d3ef463e8b481ec8b6bf2a6e93e0ef394a7dbec72cc1c05c65a1f314"
+  },
+  {
+    "key": "SatoriMemoryRain",
+    "title": "想起「波与粒的境界」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMemoryRain.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "48a3182f50409ed10d069332a292b1770afac7efcfb579b749f7478b60a812fb"
+  },
+  {
+    "key": "SatoriThoughtLeech",
+    "title": "念头汲取",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriThoughtLeech.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "e8f74085b6f822e6f553eceaf02acff61733e47a1b6914fd43536b720e9e9bb1"
+  },
+  {
+    "key": "SatoriHeartRend",
+    "title": "心裂",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriHeartRend.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "f72de953b920427673e3e9017608fc794decbe3a6a83f21c98169532e45fc97f"
+  },
+  {
+    "key": "SatoriCounterEcho",
+    "title": "想起「朦朦迷雾」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriCounterEcho.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "50f544095de18c60e41078b7aa8c8be2ddc0dd4096a4d54dc0c2b0bf3f5241b0"
+  },
+  {
+    "key": "SatoriRedThreadSweep",
+    "title": "想起「鸟居旋风」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRedThreadSweep.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "4bf783e0b09d06d68cb4b0e13fb680ad0bda1249d4c7a3c59254e26f749a264c"
+  },
+  {
+    "key": "SatoriIntrusiveThought",
+    "title": "侵入思维",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriIntrusiveThought.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "5711c3ef4ce652a449a8ebb33807ccd91b3684f9fb423a5ce250b9f3d0d86122"
+  },
+  {
+    "key": "SatoriRetainedImage",
+    "title": "滞留心象",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRetainedImage.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "432e32958cabb6e5b76d2931409a8e1efdfa3412ab4bcde1ea5ef7d902d58ea1"
+  },
+  {
+    "key": "SatoriIncite",
+    "title": "挑拨",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriIncite.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "0f3fd75a94d7b6e86283791504dcc07c40770f32bc2369fca6e9b686fd398310"
+  },
+  {
+    "key": "SatoriCommandStop",
+    "title": "止语",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriCommandStop.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "164819df64a4cf833aa1c35867134308c5305c462ce1efc712f73e5ccd6a71c3"
+  },
+  {
+    "key": "SatoriQuietCourt",
+    "title": "离间操纵",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriQuietCourt.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "3b3ce9c2877418cca43ec1d688e4ed62d4d791e4a1853ce2d8adacb7968279f4"
+  },
+  {
+    "key": "SatoriRewriteHostility",
+    "title": "挑衅",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRewriteHostility.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "5de81405aee51674ad5244da18cd5e0357b2bbc7e8c31727891f9d0aa907268f"
+  },
+  {
+    "key": "SatoriBorrowedCourage",
+    "title": "心灵屏蔽",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriBorrowedCourage.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "5c110dfe8383b33315f0abe908ea106243696e5432c9e5c4bf05e3166ecbde9d"
+  },
+  {
+    "key": "SatoriMindEchoes",
+    "title": "心声回廊",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindEchoes.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "17e30acdbac630f3607693dee55e1d2ccb1bf484e1c47bbb59df362590a5a2bf"
+  },
+  {
+    "key": "SatoriRecollection",
+    "title": "想起「粼粼水底之心伤」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRecollection.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "98b56a9b0c43ef4156f5d7cc3136d67542bc4898c878a22c30d2f6eb810cb118"
+  },
+  {
+    "key": "SatoriMemorySketch",
+    "title": "想起「飞行虫之巢」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMemorySketch.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "ce75de3b3108945f7d31e536c2c700a57785aa42f52cdf175d3c185e02fcd05f"
+  },
+  {
+    "key": "SatoriEditMemory",
+    "title": "书写记忆",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriEditMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "209c7df2a75f712790d66af345a71a2d9c3075c45540f1edea810c7a901c6640"
+  },
+  {
+    "key": "SatoriThoughtTwin",
+    "title": "想起「二重黑死蝶」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriThoughtTwin.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "21b64d589db2ff7778638690d29bdf8f68f97f94585cd2fe15e16858f8b896f4"
+  },
+  {
+    "key": "SatoriMentalOverload",
+    "title": "想起「回归虚无」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMentalOverload.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "e0216d937280c7456da56af94cfe824db280b52977ca625c9863c06c60064ba5"
+  },
+  {
+    "key": "SatoriHeadache",
+    "title": "换个念头",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriHeadache.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "80cfbda5b97337fb78a13c124fd6784a4cc4ba9c621439b7a9e3a42ce6daeba6"
+  },
+  {
+    "key": "SatoriOminousSilence",
+    "title": "压抑的静默",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriOminousSilence.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "4655debd4a7d12e1c3b1299f97178f0afccba588b13e7bb6e873f5263084d893"
+  },
+  {
+    "key": "SatoriLongNight",
+    "title": "想起「水精公主」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriLongNight.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "5e1b64b0a5ac166af43605345fa0504c48cfdf169e4b34ee6b939bf096948f31"
+  },
+  {
+    "key": "SatoriMindSeal",
+    "title": "想起「风神木叶隐身术」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindSeal.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "6b0e925250ec46fe579417d57c7c73ca4fde654e67c1bbe5a9f9efe0ccc471e4"
+  },
+  {
+    "key": "SatoriInnerOrder",
+    "title": "断念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriInnerOrder.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "0b5e51b3fc49f1eea0102005e68e8caa83c1735a4aada1684ce99a93917de99d"
+  },
+  {
+    "key": "SatoriSuddenFocus",
+    "title": "熬夜",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriSuddenFocus.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "3ed2ea3d258092a3ac667c4cfdf965b59cfd960fb6b2773eefbf7643d70485a3"
+  },
+  {
+    "key": "SatoriExhale",
+    "title": "阿空的燃料清单",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriExhale.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "23eea454e6d248d90aa06ab43e755640f4aa3ca80a57b32fef50d0cb2a1b2b9d"
+  },
+  {
+    "key": "SatoriGuardMemory",
+    "title": "守念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriGuardMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "521cc3f8a5a555e33b0a467b1c259075015fdcef46f2d5a63d5c66650eb335af"
+  },
+  {
+    "key": "SatoriBindingRecall",
+    "title": "束念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriBindingRecall.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "35f3c9e1e7672e3bc3f0325dfefa6d3aa72678cd589861398ea198ec00709d23"
+  },
+  {
+    "key": "SatoriLingeringEcho",
+    "title": "观察弱点",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriLingeringEcho.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "36b5d3fd50c59f2b4054cd68e50df1317889847b9df253f35e72f835177e678a"
+  },
+  {
+    "key": "SatoriWhisperDominion",
+    "title": "低语支配",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriWhisperDominion.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "69745c55a0fb645093cde37be7f00e29f9b356db0c3b44bbfda3b548970c5997"
+  },
+  {
+    "key": "SatoriMemoryHall",
+    "title": "记忆回廊",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMemoryHall.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "b6c9b941f54d324b40ca659eb9d8a5c0e5fe62513ebfded896f5178bcf10c26a"
+  },
+  {
+    "key": "SatoriEchoAmplifier",
+    "title": "心念凝聚",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriEchoAmplifier.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "5980742dab6678589d1ac1896a80af18a832b7307eb8af11f888be3adab84cb8"
+  },
+  {
+    "key": "SatoriThoughtShield",
+    "title": "陪伴",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriThoughtShield.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "04ecfda4a0057746be870b0ea3c08cec739142eb067c33160cef2c8a83e2caa9"
+  },
+  {
+    "key": "SatoriUnceasingNoise",
+    "title": "不断的杂音",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriUnceasingNoise.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "cd372a069378745de720b27baf48799c3ef5834bd63acfc2a17637256a0479a7"
+  },
+  {
+    "key": "SatoriVerbalEcho",
+    "title": "言语回声",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriVerbalEcho.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "26fd1ebeb092946be5332bd2d45e529ee83583d6a10e29d79fb5b08a6272bd74"
+  },
+  {
+    "key": "SatoriMindCollapse",
+    "title": "想起「恐怖催眠术」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindCollapse.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "46c4d818a5bc8bfc757e68d5e9a5050d8bd60924242730417c677a9b95ebecef"
+  },
+  {
+    "key": "SatoriHeartStorm",
+    "title": "想起「天狗巨暴流」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriHeartStorm.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "3b457e8518e1f92df7474c855902aadae3696b964f9f51b54aa718c3205dcb7a"
+  },
+  {
+    "key": "SatoriPerfectEcho",
+    "title": "想起「春之京都人偶」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriPerfectEcho.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "b1ee33c9669dbce9be1cb394ceb1a0a80509c1f22502e0429c999242561ec76f"
+  },
+  {
+    "key": "SatoriPuppetStrike",
+    "title": "傀儡一击",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriPuppetStrike.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "e03ce4c15b7a182b3d239c8d816a3a97aa6acc5a3abbb0fc6b884b7d9f8bfc1c"
+  },
+  {
+    "key": "SatoriSubliminalFang",
+    "title": "⑤",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriSubliminalFang.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "9de6bd3fe6c3d6d6b6589cee8f40b69ac021ba3e3891d6a43defe3223a7b365b"
+  },
+  {
+    "key": "SatoriRecallBarrage",
+    "title": "想起「百万鬼夜行」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRecallBarrage.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "535728987fe913e53112dc65ab02ae854782543e204d93c30cd65df53185d939"
+  },
+  {
+    "key": "SatoriMindLiberation",
+    "title": "脑力透支",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindLiberation.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "dcce534263d005a152c4b58cd9463f81c6ebde9dcf0e6a54a577584931f4b0d8"
+  },
+  {
+    "key": "SatoriTotalSilence",
+    "title": "万籁俱寂",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriTotalSilence.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "2ec4bf8f6be1d8677ee2e91e6e54ff3ba2daa6501317be2366563cf7984a884d"
+  },
+  {
+    "key": "SatoriDeepImprint",
+    "title": "脑符「脑指纹测谎法」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDeepImprint.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "d762d4ce41fcecce4cf0603f487d244e6175a2793f4b302f8519831b0b4e4d17"
+  },
+  {
+    "key": "SatoriFourfoldMemory",
+    "title": "想起「贤者之石」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriFourfoldMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "9f72c6bfb37143e8530322b9fda905c29f615726c1e2b03212574df8448b6788"
+  },
+  {
+    "key": "SatoriEmptyMind",
+    "title": "闲暇时刻",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriEmptyMind.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "2c3724f64942b51d8af9c3c0104b346cc094d0604ed5da8159a822c76a1abbb6"
+  },
+  {
+    "key": "SatoriFinalOrder",
+    "title": "最后的命令",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriFinalOrder.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "49d5b5fc84ecb4aacc757a4f61e5b3ba1b41c50cc5a3971522371a967f3fa070"
+  },
+  {
+    "key": "SatoriDreamReprise",
+    "title": "想起「旧地狱的梦」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDreamReprise.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "f7cbbc576a572d4e57af03891fbec707ef3a10bf5ea47fc0b1478d395c1391dd"
+  },
+  {
+    "key": "SatoriDreamStudy",
+    "title": "地灵殿图书室",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDreamStudy.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "7beac7af42c71c5943b12585752a87c2143842c7af4d1d4320e3bc515413bced"
+  },
+  {
+    "key": "SatoriRedStrings",
+    "title": "第三只眼的红线",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriRedStrings.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "476da658ad2f67787c075df2a3f4e460f093dc1a321644ecd2f161eda2ff3e50"
+  },
+  {
+    "key": "SatoriPuppetTheater",
+    "title": "想起「稻草人偶神风」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriPuppetTheater.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "fcedcdcae9ff9d8587804a1ba77c9b8a4acb3d9a14f8fd547b42f10de3cb4231"
+  },
+  {
+    "key": "SatoriDreadAura",
+    "title": "怨灵畏惧的少女",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDreadAura.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "6f4a33f38948167dd159a35c75758194b5f187f0c3879aae926678c4bf845046"
+  },
+  {
+    "key": "SatoriNightmareField",
+    "title": "少女的噩梦",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriNightmareField.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "a8d02e0af5a734fd873912bd72205a47f9d3548bd76ece458786fb83160b1302"
+  },
+  {
+    "key": "SatoriDeepSea",
+    "title": "深海意识",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDeepSea.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "f8caa4ee7069def39f65de91b2f0ea75ddba41ee7269c0ea7b899b544907f425"
+  },
+  {
+    "key": "SatoriSharedNightmare",
+    "title": "旧地狱的来信",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriSharedNightmare.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "8f2802970fbc99ec569d882eb8543bd62b01b8283fb86e79a81a3b722f972bd4"
+  },
+  {
+    "key": "SatoriClearSight",
+    "title": "少女觉",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriClearSight.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "962ab93a0436bf20b8005753ad5e0603384098aa014c20d9f8158bc60df24b3a"
+  },
+  {
+    "key": "SatoriMindWard",
+    "title": "心灵结界",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindWard.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "63b86c0668aa77b823fe38621e1ab6e0ec4175225d5a970f9390c6747ede31a9"
+  },
+  {
+    "key": "SatoriPerfectMemory",
+    "title": "全知形态",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriPerfectMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "a988731170a269eb3481a7a972f22d88ec26a1c1634644842f016e52b587a652"
+  },
+  {
+    "key": "SatoriCalmHeart",
+    "title": "今日闭门谢客",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriCalmHeart.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "650e1883327189ed74cd3f4fc5282e730b7f7a34646dda304ef643ed5de6445f"
+  },
+  {
+    "key": "SatoriMemoryPalace",
+    "title": "心无旁骛",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMemoryPalace.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "7c4c81a845cf94d6ea264dcf7640fe8dc354b9c612ebd64ee9a5ba1ba40f7da3"
+  },
+  {
+    "key": "SatoriMindSovereign",
+    "title": "心花「羞于留影的蔷薇」",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriMindSovereign.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "4bff0960b0ae48349af8fc83daa1953c8bf2f0a4ebcf6d93dc1a1d9daf3feddd"
+  },
+  {
+    "key": "SatoriAncientHeart",
+    "title": "入侵",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriAncientHeart.png",
+    "size": [
+      1196,
+      1684
+    ],
+    "selected_source_sha256": "b721e8c3b7ae73dcf5664b2553f9c7df87718c272ea6c757dfdd50e04d24f580"
+  },
+  {
+    "key": "SatoriAncientDream",
+    "title": "王之蔑视",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriAncientDream.png",
+    "size": [
+      1196,
+      1684
+    ],
+    "selected_source_sha256": "174c0ed3f5cd6fcb95181e05a5671c339e94cfd43f61e06846211f67300659ec"
+  },
+  {
+    "key": "SatoriAttackMemory",
+    "title": "攻念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriAttackMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "7e9786d6fcd76c025349ef840f0a9bf05e53955e244e1a89e78af9b107079769"
+  },
+  {
+    "key": "SatoriDefenseMemory",
+    "title": "守护心象",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDefenseMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "db548a1c1e64d2e3920df081ca411894620164f2279ef7e5cacff0e9e0e64f17"
+  },
+  {
+    "key": "SatoriDebuffMemory",
+    "title": "咒念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriDebuffMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "3a3a4f66a42e61c61f9d5e97e0cbcfa34fb2d1b2bb888f31f5f769c900bebe24"
+  },
+  {
+    "key": "SatoriBuffMemory",
+    "title": "蓄念",
+    "path": "res://SatoriCharacter/assets/card-portraits/SatoriBuffMemory.png",
+    "size": [
+      1000,
+      760
+    ],
+    "selected_source_sha256": "3559b97fd95a85448f946d7c55643f1fcaeb385f5875c8d4bcf9c87dfd51b12c"
+  }
+]

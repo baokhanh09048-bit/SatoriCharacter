@@ -1,0 +1,6 @@
+{
+  "OPTION_SATORI_REMEMBER.name": "回忆",
+  "OPTION_SATORI_REMEMBER.description": "获得珍贵的回忆，允许后面的事件邀请阿燐、阿空同时加入最终战。占用本次火堆行动。",
+  "OPTION_SATORI_GARDEN_PREVIEW.name": "前往第四章（预览）",
+  "OPTION_SATORI_GARDEN_PREVIEW.description": "保留当前牌组，跳到第四章火堆。此为调试预览，会跳过剩余章节；请只在体验用存档使用。"
+}

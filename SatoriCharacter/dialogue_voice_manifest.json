@@ -1,0 +1,79 @@
+{
+  "ai_generated": true,
+  "spoken_language": "ja",
+  "voice_reference_work": "東方ダンマクカグラ",
+  "clips": [
+    {
+      "key": "boss.bubble.intro.koishi",
+      "speaker": "koishi",
+      "japanese": "お姉ちゃんも、ここで遊んでいくの？",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-intro.ogg",
+      "seconds": 2.34,
+      "bytes": 22737
+    },
+    {
+      "key": "boss.bubble.intro.satori",
+      "speaker": "satori",
+      "japanese": "この塔は危険よ。遊んでいていい場所じゃないわ。一緒に帰りましょう。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-satori-spire.ogg",
+      "seconds": 6.2,
+      "bytes": 40184
+    },
+    {
+      "key": "boss.bubble.intro.3",
+      "speaker": "koishi",
+      "japanese": "みんな来たんだ……じゃあ、一緒に遊ぼうよ。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-together.ogg",
+      "seconds": 3.74,
+      "bytes": 30012
+    },
+    {
+      "key": "boss.bubble.intro.4",
+      "speaker": "koishi",
+      "japanese": "お姉ちゃん一人で迎えに来たの？ じゃあ、今度はお姉ちゃんとだけ遊ぶね。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-alone.ogg",
+      "seconds": 6.04,
+      "bytes": 46830
+    },
+    {
+      "key": "boss.presenceBroken",
+      "speaker": "satori",
+      "japanese": "そこにいたのね。あなたの影は、ずっと覚えていた。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-satori-found.ogg",
+      "seconds": 5.5,
+      "bytes": 35396
+    },
+    {
+      "key": "boss.phase2",
+      "speaker": "koishi",
+      "japanese": "こんな面倒な思いは、全部忘れちゃえばいいんだ！",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-forget.ogg",
+      "seconds": 3.88,
+      "bytes": 33653
+    },
+    {
+      "key": "boss.heavyWarning.0",
+      "speaker": "koishi",
+      "japanese": "お姉ちゃん、気をつけて。次は強くいくよ。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-heavy-1.ogg",
+      "seconds": 3.9,
+      "bytes": 29253
+    },
+    {
+      "key": "boss.heavyWarning.1",
+      "speaker": "koishi",
+      "japanese": "本気でいくよ。怪我しないでね。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-heavy-2.ogg",
+      "seconds": 2.56,
+      "bytes": 24370
+    },
+    {
+      "key": "boss.heavyWarning.2",
+      "speaker": "koishi",
+      "japanese": "しっかり立っててね。いくよ。",
+      "path": "res://SatoriCharacter/assets/voices/dialogue-koishi-heavy-3.ogg",
+      "seconds": 3.02,
+      "bytes": 22740
+    }
+  ]
+}

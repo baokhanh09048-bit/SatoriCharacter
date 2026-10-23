@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://SatoriCharacter/satori_actor.gd" id="1_actor"]
+[ext_resource type="Texture2D" path="res://SatoriCharacter/assets/animation-refresh-atlases/satori-fallback.png" id="2_art"]
+
+[node name="SatoriActor" type="Node2D"]
+script = ExtResource("1_actor")
+
+[node name="Artwork" type="Sprite2D" parent="."]
+position = Vector2(0, -165)
+scale = Vector2(0.215, 0.215)
+texture = ExtResource("2_art")
+
+[node name="Frames" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(0, -165)
+scale = Vector2(0.215, 0.215)
+
+; Keep the crossfade after Frames at the same Z level. A positive z_index
+; draws it above later native inventory/card detail controls for a few frames.
+[node name="Transition" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -165)

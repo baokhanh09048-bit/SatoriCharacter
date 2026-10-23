@@ -1,0 +1,35 @@
+[
+  {
+    "key": "SatoriHeartKnot",
+    "title": "心结",
+    "source": "art\\act4-card-art-20261012\\card-heart-knot-v01.png",
+    "source_sha256": "f7e57f6b9f480e928a08dd71d43612a4636eeed9e43f2813ed366d9256aa721e",
+    "path": "res://SatoriCharacter/assets/act4/card-heart-knot.png",
+    "size": [
+      1000,
+      760
+    ]
+  },
+  {
+    "key": "SatoriNuclearAid",
+    "title": "核热支援",
+    "source": "art\\act4-card-art-20261012\\card-nuclear-aid-v01.png",
+    "source_sha256": "b3d15a1824059943eef74b8a7f9cc343c30cc214a16367fb82bee5f9c9bd250a",
+    "path": "res://SatoriCharacter/assets/act4/card-nuclear-aid.png",
+    "size": [
+      1000,
+      760
+    ]
+  },
+  {
+    "key": "SatoriSpiritEscort",
+    "title": "怨灵护送",
+    "source": "art\\act4-card-art-20261012\\card-spirit-escort-v01.png",
+    "source_sha256": "c4642743415142f6486d578d5913227018295a78fb2fda072a81fe66d5c8527d",
+    "path": "res://SatoriCharacter/assets/act4/card-spirit-escort.png",
+    "size": [
+      1000,
+      760
+    ]
+  }
+]

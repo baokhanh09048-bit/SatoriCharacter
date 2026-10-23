@@ -1,0 +1,272 @@
+[
+  {
+    "key": "SatoriOpenThirdEye",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriOpenThirdEye.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "af5b795392d03634d88a6ab989e84aa703c2fcd68e097e0dd8eb1752b3f8714c"
+  },
+  {
+    "key": "SatoriOpenThirdEye",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriOpenThirdEye-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "d1349ea3e7fab52c80e682b3aa8b9fd5d500fdc19bd6be8cef1c321394066029"
+  },
+  {
+    "key": "SatoriOpenThirdEye",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriOpenThirdEye-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "e668da0523d3943c1e43103069999b8d62a41db59aa0815bb42f73849d3cdb09"
+  },
+  {
+    "key": "SatoriBookmark",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriBookmark.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "d1b97b2b0897312a9862bb29cd1c47e712dffa696b471f575b7f2b6639323781"
+  },
+  {
+    "key": "SatoriBookmark",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriBookmark-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "9f9570dd8efd17e45c38e3abb56e0dc0fe38fda73cde14538a72c81920f662da"
+  },
+  {
+    "key": "SatoriBookmark",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriBookmark-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "41b45097bb8e96f36e127df0d1e7be9cf570b6c91ab27ad0eca74703324f637c"
+  },
+  {
+    "key": "SatoriRedSpool",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriRedSpool.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "d1210fd6314b912f92e9f2337a313992d3c7ae0129e599694745df768f3f8df9"
+  },
+  {
+    "key": "SatoriRedSpool",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriRedSpool-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "11bc3aab82bb12cb0388832f5b310fcf72f216a0c45c80723b1a83d331fb5708"
+  },
+  {
+    "key": "SatoriRedSpool",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriRedSpool-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "38b8dccc777e646865b33eaf4006e6f33c7c57cffc47a0079838173e61de7c51"
+  },
+  {
+    "key": "SatoriHellEmber",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriHellEmber.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "f4b3b2e0e8c77a0ec98b1fcaf814d850503ea1e1c0fea2fd0c6160e6cbb4e3d1"
+  },
+  {
+    "key": "SatoriHellEmber",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriHellEmber-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "92a37aea14ed971e9260bad9b707dcb41ae075329c53531a54114d029a0a4201"
+  },
+  {
+    "key": "SatoriHellEmber",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriHellEmber-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "a9b728daf35b8eebaa04e1201762c9cfc61ef6881367757427042afd15750b15"
+  },
+  {
+    "key": "SatoriTeacup",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriTeacup.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "8ef33066da4b966bc71d84b855cf610e15c84102822090586c3a9375bb962f55"
+  },
+  {
+    "key": "SatoriTeacup",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriTeacup-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "864a296cce92831b6afea8bae5bb02e640d05b4dc107f895bfb91cf598477213"
+  },
+  {
+    "key": "SatoriTeacup",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriTeacup-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "9f9ba06311bfe9b711a6acbb64d9128e9b48203f0cd79338158a9f871dc1e4d0"
+  },
+  {
+    "key": "SatoriKoishiNote",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriKoishiNote.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "34b8f5920f1a5c6ac3055b8db480d92fedefd6f1852213ccd14c11ac6328a33b"
+  },
+  {
+    "key": "SatoriKoishiNote",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriKoishiNote-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "22e04931de5fb06f59e9bc9afa46047861328a794ef7d4b6f5b31eee4e2b4fac"
+  },
+  {
+    "key": "SatoriKoishiNote",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriKoishiNote-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "144be24e93d9074b71614b67434d3a6c3eb371e5e29bd4856e900e6de38c8001"
+  },
+  {
+    "key": "SatoriHeartBell",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriHeartBell.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "e0270dcad381be25bd93a12c94bcc43116346ae2abe4eb3911fb9e0eacd0a718"
+  },
+  {
+    "key": "SatoriHeartBell",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriHeartBell-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "c1de8a575f4f6161981af198f7726fad37161d029609569600a0bacfcda6bc11"
+  },
+  {
+    "key": "SatoriHeartBell",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriHeartBell-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "866d6f5aa453c935e4e6a950c5bf359ebbfdebb2475e73ced2f002568d3c646c"
+  },
+  {
+    "key": "SatoriUnconsciousHat",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriUnconsciousHat.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "6e39efa3c0a7d5abc94da684ba21cba456a135e0b21675c759e2ea4a8845c7aa"
+  },
+  {
+    "key": "SatoriUnconsciousHat",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriUnconsciousHat-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "9d241875c47da78ab3b2a3a25b25fce28cbc78164864defa159966b765e834a4"
+  },
+  {
+    "key": "SatoriUnconsciousHat",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriUnconsciousHat-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "07729bbb6a2d29a1728adaee0b6796fad4e98d55860b527106e62de54a5c0876"
+  },
+  {
+    "key": "SatoriPalaceKey",
+    "variant": "icon",
+    "path": "res://SatoriCharacter/assets/relics/SatoriPalaceKey.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "22921b02b12dc7a55a320fb752c380ed347e95c028eb83a414f781d87773a942"
+  },
+  {
+    "key": "SatoriPalaceKey",
+    "variant": "-big",
+    "path": "res://SatoriCharacter/assets/relics/SatoriPalaceKey-big.png",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "fa7f87dfa79e51a5b1fa7793440b060b4b62a3d99987d19c35c8c6d7690a0883"
+  },
+  {
+    "key": "SatoriPalaceKey",
+    "variant": "-outline",
+    "path": "res://SatoriCharacter/assets/relics/SatoriPalaceKey-outline.png",
+    "size": [
+      96,
+      96
+    ],
+    "sha256": "ffe29242b13eefa0b5a1d6ba3af705c7c8ca8096342334f4ad3aeb6bc39ec46f"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "OPTION_SATORI_REMEMBER.name": "Remember",
+  "OPTION_SATORI_REMEMBER.description": "Gain a Precious Memory, allowing both Orin and Okuu to join the final battle. Uses this rest-site action.",
+  "OPTION_SATORI_GARDEN_PREVIEW.name": "Preview Act 4",
+  "OPTION_SATORI_GARDEN_PREVIEW.description": "Keep your deck and skip to Act 4’s rest site. This debug preview skips the remaining acts; use a separate preview run."
+}

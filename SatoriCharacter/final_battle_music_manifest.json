@@ -1,0 +1,34 @@
+[
+  {
+    "id": "koishi-514",
+    "title": "514",
+    "artist": "Maritumix",
+    "path": "res://SatoriCharacter/assets/music/koishi-514.ogg",
+    "sha256": "d93252dab85e069dfca69c285730ea3cb578ad1bef680174a15959dcc029acc0",
+    "bytes": 3879541
+  },
+  {
+    "id": "muishiki-requiem",
+    "title": "Muishiki Requiem",
+    "artist": "ShinRa-Bansho",
+    "path": "res://SatoriCharacter/assets/music/muishiki-requiem.ogg",
+    "sha256": "000e37b1e27a0eb4cbd29fa22757daf4d3034ab6828f2ae268d0cacee59bb059",
+    "bytes": 3909819
+  },
+  {
+    "id": "shinra-i",
+    "title": "I",
+    "artist": "ShinRa-Bansho",
+    "path": "res://SatoriCharacter/assets/music/shinra-i.ogg",
+    "sha256": "b0ff8b74b4f5e7d07799439bfd771b61353d76cd5f7d07d37890b733e7e9480b",
+    "bytes": 4039443
+  },
+  {
+    "id": "paranoia",
+    "title": "Paranoia",
+    "artist": "Hanatan",
+    "path": "res://SatoriCharacter/assets/music/paranoia.ogg",
+    "sha256": "a46537a131ddfb59f836ee52e1c5c72f55bba6ce7596cd98d90abb16e23caece",
+    "bytes": 3536140
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "SATORI_UNSEEN_PRESENCE_POWER.title": "无人察觉 · 无实体",
+  "SATORI_UNSEEN_PRESENCE_POWER.description": "受到的伤害和失去的生命至多为1。没有回合期限。\n全队共享破除进度：{Progress}/{Goal}。每位参战玩家需要4次；任何人打出《心结》增加1。队友倒下时免去其4次需求（每人限一次），保留已有进度。完成后永久破除，并消耗所有《心结》。",
+  "SATORI_UNCONSCIOUS_INTENT_POWER.title": "无意识的行动",
+  "SATORI_UNCONSCIOUS_INTENT_POWER.description": "所有意图合并显示为一个？；行动执行时显示真实意图。取念仍读取真实类型。重击前会出声预警。\n生命首次降至一半及以下时，下一次行动额外清除自身所有负面状态并获得5力量，仅触发一次。"
+}

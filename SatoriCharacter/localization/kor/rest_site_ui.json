@@ -1,0 +1,6 @@
+{
+  "OPTION_SATORI_REMEMBER.name": "추억을 떠올린다",
+  "OPTION_SATORI_REMEMBER.description": "소중한 기억을 얻어 이후 이벤트에서 오린과 오쿠를 함께 최종전에 데려갈 수 있습니다. 이번 휴식 행동을 소모합니다.",
+  "OPTION_SATORI_GARDEN_PREVIEW.name": "4장 미리 보기",
+  "OPTION_SATORI_GARDEN_PREVIEW.description": "현재 덱을 유지한 채 4장 휴식 장소로 건너뜁니다. 남은 막을 생략하는 디버그 미리 보기입니다. 체험용 모험에서 사용하세요."
+}

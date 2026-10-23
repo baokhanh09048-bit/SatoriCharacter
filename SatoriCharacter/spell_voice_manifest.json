@@ -1,0 +1,193 @@
+{
+  "ai_generated": true,
+  "voice_direction": "A3: Danmaku Kagura Satori / Sendai Eri reference",
+  "format": "Ogg Vorbis mono 32000 Hz quality 3",
+  "clips": [
+    {
+      "key": "SatoriWhisperBolt",
+      "japanese": "想起「のびーるアーム」",
+      "reading": "そうき。「のびーるアーム」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriWhisperBolt.ogg",
+      "seconds": 2.48,
+      "bytes": 16241
+    },
+    {
+      "key": "SatoriProbingStrike",
+      "japanese": "想起「戸隠山投げ」",
+      "reading": "そうき。「とがくしやまなげ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriProbingStrike.ogg",
+      "seconds": 2.8,
+      "bytes": 24584
+    },
+    {
+      "key": "SatoriThoughtWave",
+      "japanese": "想起「河童のポロロッカ」",
+      "reading": "そうき。「かっぱのポロロッカ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriThoughtWave.ogg",
+      "seconds": 3.12,
+      "bytes": 20551
+    },
+    {
+      "key": "SatoriReadAndWrite",
+      "japanese": "想起「テリブルスーヴニール」",
+      "reading": "そうき。「テリブルスーヴニール」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriReadAndWrite.ogg",
+      "seconds": 2.82,
+      "bytes": 20966
+    },
+    {
+      "key": "SatoriAgitation",
+      "japanese": "想起「マーキュリポイズン」",
+      "reading": "そうき。「マーキュリポイズン」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriAgitation.ogg",
+      "seconds": 3.14,
+      "bytes": 19470
+    },
+    {
+      "key": "SatoriMemoryRain",
+      "japanese": "想起「波と粒の境界」",
+      "reading": "そうき。「なみとつぶのきょうかい」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriMemoryRain.ogg",
+      "seconds": 3.12,
+      "bytes": 21671
+    },
+    {
+      "key": "SatoriCounterEcho",
+      "japanese": "想起「濛々迷霧」",
+      "reading": "そうき。「もうもうめいむ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriCounterEcho.ogg",
+      "seconds": 2.54,
+      "bytes": 16510
+    },
+    {
+      "key": "SatoriRedThreadSweep",
+      "japanese": "想起「鳥居つむじ風」",
+      "reading": "そうき。「とりいつむじかぜ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriRedThreadSweep.ogg",
+      "seconds": 2.84,
+      "bytes": 20330
+    },
+    {
+      "key": "SatoriRecollection",
+      "japanese": "想起「光り輝く水底のトラウマ」",
+      "reading": "そうき。「ひかりかがやくみなそこのトラウマ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriRecollection.ogg",
+      "seconds": 4.22,
+      "bytes": 28033
+    },
+    {
+      "key": "SatoriMemorySketch",
+      "japanese": "想起「飛行虫ネスト」",
+      "reading": "そうき。「ひこうちゅうネスト」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriMemorySketch.ogg",
+      "seconds": 2.64,
+      "bytes": 18293
+    },
+    {
+      "key": "SatoriThoughtTwin",
+      "japanese": "想起「二重黒死蝶」",
+      "reading": "そうき。「にじゅうこくしちょう」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriThoughtTwin.ogg",
+      "seconds": 2.58,
+      "bytes": 17970
+    },
+    {
+      "key": "SatoriMentalOverload",
+      "japanese": "想起「リターンイナニメトネス」",
+      "reading": "そうき。「リターンイナニメトネス」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriMentalOverload.ogg",
+      "seconds": 2.98,
+      "bytes": 20545
+    },
+    {
+      "key": "SatoriLongNight",
+      "japanese": "想起「プリンセスウンディネ」",
+      "reading": "そうき。「プリンセスウンディネ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriLongNight.ogg",
+      "seconds": 2.72,
+      "bytes": 18086
+    },
+    {
+      "key": "SatoriMindSeal",
+      "japanese": "想起「風神木の葉隠れ」",
+      "reading": "そうき。「ふうじんこのはがくれ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriMindSeal.ogg",
+      "seconds": 3.44,
+      "bytes": 23239
+    },
+    {
+      "key": "SatoriMindCollapse",
+      "japanese": "想起「恐怖催眠術」",
+      "reading": "そうき。「きょうふさいみんじゅつ」。",
+      "approved_a3": true,
+      "path": "res://SatoriCharacter/assets/voices/SatoriMindCollapse.ogg",
+      "seconds": 2.94,
+      "bytes": 18279
+    },
+    {
+      "key": "SatoriHeartStorm",
+      "japanese": "想起「天狗のマクロバースト」",
+      "reading": "そうき。「てんぐのマクロバースト」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriHeartStorm.ogg",
+      "seconds": 2.96,
+      "bytes": 22916
+    },
+    {
+      "key": "SatoriPerfectEcho",
+      "japanese": "想起「春の京人形」",
+      "reading": "そうき。「はるのきょうにんぎょう」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriPerfectEcho.ogg",
+      "seconds": 3.04,
+      "bytes": 21010
+    },
+    {
+      "key": "SatoriRecallBarrage",
+      "japanese": "想起「百万鬼夜行」",
+      "reading": "そうき。「ひゃくまんきやこう」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriRecallBarrage.ogg",
+      "seconds": 3.0,
+      "bytes": 23548
+    },
+    {
+      "key": "SatoriDeepImprint",
+      "japanese": "脳符「ブレインフィンガープリント」",
+      "reading": "のうふ。「ブレインフィンガープリント」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriDeepImprint.ogg",
+      "seconds": 3.04,
+      "bytes": 20835
+    },
+    {
+      "key": "SatoriFourfoldMemory",
+      "japanese": "想起「賢者の石」",
+      "reading": "そうき。「けんじゃのいし」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriFourfoldMemory.ogg",
+      "seconds": 2.38,
+      "bytes": 17939
+    },
+    {
+      "key": "SatoriDreamReprise",
+      "japanese": "想起「旧地獄の夢」",
+      "reading": "そうき。「きゅうじごくのゆめ」。",
+      "note": "Mod original title translated into Japanese",
+      "path": "res://SatoriCharacter/assets/voices/SatoriDreamReprise.ogg",
+      "seconds": 3.16,
+      "bytes": 27087
+    },
+    {
+      "key": "SatoriPuppetTheater",
+      "japanese": "想起「ストロードールカミカゼ」",
+      "reading": "そうき。「ストロードールカミカゼ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriPuppetTheater.ogg",
+      "seconds": 3.0,
+      "bytes": 22103
+    },
+    {
+      "key": "SatoriMindSovereign",
+      "japanese": "心花「カメラシャイローズ」",
+      "reading": "しんか。「カメラシャイローズ」。",
+      "path": "res://SatoriCharacter/assets/voices/SatoriMindSovereign.ogg",
+      "seconds": 2.6,
+      "bytes": 17610
+    }
+  ]
+}
